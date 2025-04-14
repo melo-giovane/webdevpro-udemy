@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up page</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-color: #1a1a1a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .card {
+        background-color: rgb(212, 212, 212);
+        width: 300px;
+        padding: 30px;
+        border-radius: 8px;
+      }
+      label {
+        color: rgb(0, 61, 5);
+        font-size: 14px;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      h2 {
+        color: rgb(0, 61, 5);
+        text-align: center;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      input {
+        margin-bottom: 15px;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid black;
+        border-color: #d8d8d8;
+      }
+      button {
+        background-color: rgb(51, 141, 51);
+        color: #fff;
+        padding: 10px;
+        border-radius: 8px;
+        transition: 0.5s;
+        width: 50%;
+        margin: 0 auto;
+      }
+      button:hover {
+        background-color: rgb(75, 196, 44);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h2>Sign Up</h2>
+      <form>
+        <label>Name</label>
+        <input type="text" name="name" id="name" />
+        <label>Surname</label>
+        <input type="text" name="surname" id="surname" />
+        <label>Email</label>
+        <input type="email" name="email" id="email" />
+        <label>Password</label>
+        <input type="password" name="password" id="password" />
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </body>
+</html>

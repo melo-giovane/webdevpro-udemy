@@ -1,0 +1,79 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #a2a2a2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  display: block;
+}
+
+.navbar ul {
+  background-color: #4234da;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: left;
+  box-shadow: 0px 4px 5px #3f3f3f;
+  padding: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+.navbar a:hover {
+  background-color: #9834da;
+  border-radius: 7px;
+}
+
+.dropdown {
+  position: relative;
+  border-radius: 7px;
+}
+
+.dropdown-content {
+  visibility: hidden;
+  opacity: 0;
+  box-shadow: 0px 4px 5px #3f3f3f;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  background-color: #4234da;
+  transition: visibility 0.5s, opacity 0.5s;
+}
+
+.dropdown-content a {
+  padding: 10px;
+}
+
+.navbar .dropdown:hover .dropdown-content {
+  visibility: visible;
+  opacity: 1;
+}
+
+.login-btn {
+  margin-left: auto;
+}
+
+.login-btn button {
+  font-weight: bold;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 0 10px;
+  
+}

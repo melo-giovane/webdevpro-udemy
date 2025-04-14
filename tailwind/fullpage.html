@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full Page</title>
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body
+    class=" bg-gradient-to-br from-gray-400 to-gray-800 flex flex-col min-h-screen text-white justify-between items-center   "
+  > 
+
+      <header>
+        <h1 class="text-center">Title</h1>
+      </header>
+
+      <div class="bg-gray-600 p-6 rounded-2xl shadow-2xl shadow-black ">
+        <h2 class="text-center text-3xl mb-3 font-bold">Login</h2>
+        <form>
+          <div class="mb-4">
+            <label class="block w-full font-bold text-xl py-1"
+              >Email</label
+            >
+            <input
+              class="focus:outline-none focus:ring-blue-800 focus:ring-2 rounded-sm block w-full py-2 px-3 font-bold bg-gray-700 "
+              type="email"
+              placeholder="Email"
+            />
+          </div>
+          <div class="mb-4">
+            <label class="block w-full font-bold text-xl py-1"
+              >Password</label
+            >
+            <input
+              class="focus:outline-none focus:ring-blue-800 focus:ring-2 rounded-sm block w-full py-2 px-3 font-bold bg-gray-700"
+              type="password"
+              placeholder="Password"
+            />
+          </div>
+          <button
+            class="cursor-pointer hover:bg-blue-800 rounded-sm py-2 block w-full bg-blue-900 font-bold text-xl shadow-sm shadow-black hover:shadow-none transition-shadow "
+            type="submit"
+          >
+            Login
+          </button>
+        </form>
+      </div>
+
+      <footer><p class="text-center">&copy; Giovane</p></footer>
+
+  </body>
+</html>

@@ -1,0 +1,54 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  line-height: 0.5;
+}
+
+.card {
+  background: linear-gradient(135deg, #ccc1b4, #ff6600);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 50px 20px;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 6px 6px 15px;
+}
+
+.car-image {
+  object-fit: contain;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 6px 6px 15px;
+  margin-bottom: 40px;
+}
+
+.button-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container button {
+  padding: 5px 5px;
+  width: 100px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(255, 148, 8, 0.7);
+  box-shadow: 6px 6px 15px;
+  cursor: pointer;
+}
+
+.buy img,
+.cart img {
+  width: 28px;
+}
